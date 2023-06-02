@@ -794,6 +794,8 @@ body.fixed{
     height: 100vh;
     max-width: 360px;
     width: 100%;
+
+    padding-bottom: 40px;
 }
 
 .burgerMenu__closeButton {
@@ -918,6 +920,10 @@ body.fixed{
     font-size: 24px;
     line-height: 100%;
     color: #38434A;
+}
+
+.burgerMenu__nav{
+    margin-top: 15px;
 }
 
 .burgerMenu__navList-item {
@@ -3823,7 +3829,11 @@ body.fixed{
     }
 
     .cart__aside{
-        max-width: 370px;
+        max-width: 400px;
+    }
+
+    .cart__wrapper{
+        gap: 0 15px;
     }
 }
 
