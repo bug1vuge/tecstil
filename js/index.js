@@ -103,8 +103,6 @@ const initOfferSwiper = () => {
     try {
         const swiper = new Swiper('.offerSwiper', {
 
-
-
             navigation: {
                 nextEl: '.offerSwiper__nextButton',
                 prevEl: '.offerSwiper__prevButton',
