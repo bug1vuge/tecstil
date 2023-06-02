@@ -795,7 +795,7 @@ body.fixed{
     max-width: 360px;
     width: 100%;
 
-
+    padding-bottom: 50px;
 }
 
 .burgerMenu__closeButton {
@@ -843,7 +843,7 @@ body.fixed{
     height: 100%;
     overflow: auto;
 
-    padding-bottom: 50px;
+
 }
 
 .burgerMenu__catalogeList-item {
@@ -2581,6 +2581,10 @@ body.fixed{
         margin-bottom: 30px;
     }
 
+    .triggers.-horizontal-scroll{
+        padding-bottom: 30px;
+    }
+
     .triggers__container{
         grid-gap: 15px;
     }
@@ -2599,6 +2603,10 @@ body.fixed{
 @media(max-width: 768px) {
     .triggers{
         margin-bottom: 20px;
+    }
+
+    .triggers.-horizontal-scroll{
+        padding-bottom: 20px;
     }
     
     .triggers__item:nth-child(1){
@@ -2635,6 +2643,10 @@ body.fixed{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
     } 
+
+    .triggers.-horizontal-scroll{
+        padding-bottom: 12px;
+    }
 }
 /*  */
 
